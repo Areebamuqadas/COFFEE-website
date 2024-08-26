@@ -1,0 +1,74 @@
+:root{
+    --primary-color:#101010;
+    --secondary-color:#f9004d;
+    --text-color:#ffff;
+}
+body{
+    color:var(--text-color);
+}
+.container{width:90%;margin:auto;}
+.navbar{
+    background-color:black;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:0 30px;
+    border-radius: 8px;
+}
+.sign-up-button button{
+    cursor:pointer;
+    padding:12px 18px;
+    border-radius: 12px;
+    background-color: var(--secondary-color);
+    color:var(--text-color);
+    border:none;
+}
+.nav-list{
+    list-style:none;
+    display:flex;
+    gap: 8px;
+    text-transform:uppercase;
+}
+.nav-list a{
+    color:whitesmoke;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 8px;
+    border-radius:8px;
+}
+.nav-list a:hover{background-color: white;
+color:rgb(204, 28, 58);
+border-radius: 8px;
+}
+body{
+    background-image: url('https://www.itl.cat/pngfile/big/82-826403_black-coffee-wallpaper-bed-coffee.jpg');
+    background-size: cover;
+}
+    .home{
+        height: 400px;
+        padding: 70px;
+
+    }
+    .title-1{
+        font-size:56px;
+        font-weight: 600;
+    }
+    .home p{
+        color:rgb(214, 204, 113);
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .home button{
+        height: 30px;
+        color:var(--text-color);
+        background-color: var(--secondary-color);
+        padding:5px 30px;
+        margin-bottom: 50px;
+        border:none;
+        border-radius: 10px;
+        cursor:pointer;
+    }
+    .home button:hover{
+        background:none;
+        border: 2px solid var(--secondary-color);
+    }
